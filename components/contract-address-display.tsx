@@ -11,7 +11,7 @@ export function ContractAddressDisplay() {
   const { toast } = useToast()
 
   // This will be replaced with the actual contract address when provided
-  const contractAddress = "ca will be posted soon"
+  const contractAddress = "FsdF9BpeFoMppokzUXJBLWdswSnZq3GPv8JTgmi4pump"
 
   const handleCopy = () => {
     navigator.clipboard.writeText(contractAddress)
